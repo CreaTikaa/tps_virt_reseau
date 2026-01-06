@@ -6,4 +6,5 @@
 
 Artist : [Amynyan](https://x.com/amynyan) 
 
-Ptite musique du moment, en pleine réecoute de la discographie de SOAD : [Soldier's Side](https://open.spotify.com/track/1ez4uWPnJwYufNhYTLVsJr?si=33ee21f3ddc7409e)
+Ptite musique du moment, en pleine réecoute de la discographie de SOAD : [Soldier Side](https://www.youtube.com/watch?v=KAEBfiaY6Rc)
+Plus calme : [Von](https://www.youtube.com/watch?v=Z7fay2CE-RU)
