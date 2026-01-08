@@ -102,7 +102,31 @@ efrei.fr resolved to 51.210.229.203
 84 bytes from 51.210.229.203 icmp_seq=2 ttl=253 time=36.424 ms
 ```
 
-TODO : **4. DHCP spoofing**
+## **TP2 Part3 : Time to attack all this**
+
+### **4. DHCP spoofing**
+
+```jsx
+VPCS> show
+
+NAME   IP/MASK              GATEWAY           MAC                LPORT  RHOST:PORT
+VPCS1  10.2.1.236/24        10.2.1.178        00:50:79:66:68:06  20031  127.0.0.1:20032
+       fe80::250:79ff:fe66:6806/64
+
+VPCS> dhcp -r
+DORA IP 10.2.1.236/24 GW 10.2.1.178
+
+VPCS> ping efrei.fr
+efrei.fr resolved to 51.210.229.203
+
+84 bytes from 51.210.229.203 icmp_seq=1 ttl=253 time=30.161 ms
+84 bytes from 51.210.229.203 icmp_seq=2 ttl=253 time=39.882 ms
+84 bytes from 51.210.229.203 icmp_seq=3 ttl=253 time=27.344 ms
+84 bytes from 51.210.229.203 icmp_seq=4 ttl=253 time=40.374 ms
+84 bytes from 51.210.229.203 icmp_seq=5 ttl=253 time=26.589 ms
+```
+
+Et capture wireshark en plus, je crois que l’autre serveur DHCP à même pas eu le temps de répondre tellement il croulait sous les hpings & autres trucs et j’ai pas réussi à obtenir de versions ou on voit les deux comme dans le TP1 même après plusieurs heures de try, sry d’etre un noob
 
 ## **TP2 Part4 : Alors koa c tou ? On refé just la mem choz ke o tp1 enfet enfet ? Bah non**
 
